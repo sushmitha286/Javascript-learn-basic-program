@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javscript where to</title>
+    <script>
+        function myfunction(){
+            document.getElementById("demo1").innerHTML = "a pharagraph";
+        }
+    </script>
+</head>
+<body>
+    <p id="demo">hello world!!</p>
+    <button type="button" onclick="document.getElementById('demo').innerHTML='hello Javscript!!!'">click me!</button>
+    <p id="act"></p>
+    <script>
+        document.getElementById('act').innerHTML="hello html,css and js";
+    </script>
+    <!-- In this example, a JavaScript function is placed in the <head> section of an HTML page. -->
+    <p id="demo1">demo javacsript head</p>
+    <button type="button" onclick="myfunction()">click me!!!!</button>
+    <!-- In this example, a JavaScript function is placed in the <body> section of an HTML page. -->
+    <h5 id="demo2">A pharagraph</h5>
+    <button type="button" onclick="myfn()">click me!!!</button>
+    <script>
+        function myfn(){
+document.getElementById('demo2').innerHTML='a pharagraph changed';}
+    </script>
+</body>
+</html>
+<!-- 
+    1.Scripts can be placed in the <body>, or in the <head> section of an HTML page, or in both.
+    2.Scripts can also be placed in external files
+ -->
