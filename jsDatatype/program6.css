@@ -1,0 +1,14 @@
+div{
+   border: 1px solid black;
+   padding: 15px 15px;
+   
+}
+section{
+    border: 1px solid black;
+   padding: 12px 12px;
+   background-color: rgb(222, 167, 183);
+
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

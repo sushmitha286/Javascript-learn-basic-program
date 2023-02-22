@@ -1,0 +1,23 @@
+let a = 7;
+let b = 8.9
+let c = a + b;
+document.getElementById('demo').innerHTML= c;
+let txt1 = "yellow";
+let text2 = "red"
+let text3 = txt1 + " " + text2;
+document.getElementById('demo1').innerHTML = text3;
+let x = true;
+let y = false;
+document.getElementById('demo2').innerHTML = x;
+document.getElementById('demo3').innerHTML = y;
+const per = {firstname:"mahadev",lastname:"boha"};
+document.getElementById('demo4').innerHTML = per.firstname + " raja" + per.lastname;
+const car = ["Hyundai","BMW","Benz"];
+document.getElementById("demo5").innerHTML = car[1];
+const date = new Date("2023-02-28");
+document.getElementById("demo6").innerHTML = date;
+let val = BigInt('123456789012345678901234567890');
+document.getElementById('demo7').innerHTML = val;
+document.getElementById('demo8').innerHTML = typeof " "+ " ," +typeof 5
+let cars;
+document.getElementById('demo9').innerHTML = typeof cars;
