@@ -1,0 +1,17 @@
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    
+}
+td,th{
+    border: 1px solid black;
+    text-align: left;
+    box-sizing: border-box;
+    
+}
+tr:nth-child(even){
+    background-color: #dddddd;
+}
+body{
+    background-color: rgb(233, 196, 201);
+}

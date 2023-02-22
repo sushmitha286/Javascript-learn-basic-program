@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js operator</title>
+    <link rel="stylesheet" href="program5.css">
+</head>
+<body>
+   <!-- 
+    Arithmetic Operators
+Assignment Operators
+Comparison Operators
+Logical Operators
+Conditional Operators
+Type Operators
+    -->
+<!-- 1.Arithmetic operator -->
+<h3 style="text-decoration: underline;" >Arithmetic Operator: </h3>
+<P id="demo"></P>
+<!--    
+Operator	Description
++	Addition
+-	Subtraction
+*	Multiplication
+**	Exponentiation (ES2016)
+/	Division
+%	Modulus (Division Remainder)
+++	Increment
+--	Decrement
+ -->
+ <table style="width: 50%;">
+    <tr>
+        <th>operator</th>
+        <th>discription</th>
+    </tr>
+    <tr>
+        <td>+</td>
+        <td>addition</td>
+    </tr>
+    <tr>
+        <td>-</td>
+        <td>subtraction</td>
+    </tr>
+    <tr> 
+        <td>*
+
+        </td>
+        <td>multiplication</td>
+    
+    </tr>
+    <tr>
+        <td>/</td>
+        <td>Division</td>
+    </tr>
+    <tr>
+        <td>**</td>
+        <td>exponential</td>
+    </tr>
+    <tr>
+        <td>++</td>
+        <td>Increment</td>
+    </tr>
+    <tr>
+        <td>--</td>
+        <td>decrement</td>
+    </tr>
+    <tr>
+        <td>%</td>
+        <td>modulus</td>
+    </tr>
+
+
+ </table>
+ <h3 style="text-decoration: underline;">Assignment Operator:</h3>
+ <p id="demo1"></p>
+ <!-- 
+    Operator	Example	Same As
+=	x = y	x = y
++=	x += y	x = x + y
+-=	x -= y	x = x - y
+*=	x *= y	x = x * y
+/=	x /= y	x = x / y
+%=	x %= y	x = x % y
+**=	x **= y	x = x ** y
+  -->
+  <table style="width: 50%;">
+    <tbody><tr>
+    <th style="width:30%">Operator</th>
+    <th>Example</th>
+    <th>Same As</th>
+    </tr>
+    <tr>
+    <td>=</td>
+    <td>x = y</td>
+    <td>x = y</td>
+    </tr>
+    <tr>
+    <td>+=</td>
+    <td>x += y</td>
+    <td>x = x + y</td>
+    </tr>
+    <tr>
+    <td>-=</td>
+    <td>x -= y</td>
+    <td>x = x - y</td>
+    </tr>
+    <tr>
+    <td>*=</td>
+    <td>x *= y</td>
+    <td>x = x * y</td>
+    </tr>
+    <tr>
+    <td>/=</td>
+    <td>x /= y</td>
+    <td>x = x / y</td>
+    </tr>
+    <tr>
+    <td>%=</td>
+    <td>x %= y</td>
+    <td>x = x % y</td>
+    </tr>
+    <tr>
+    <td>**=</td>
+    <td>x **= y</td>
+    <td>x = x ** y</td>
+    </tr>
+    </tbody></table>
+    <h4>Shift Assignment operator</h4>
+    <table style="width: 50%;">
+        <tbody><tr>
+        <th style="width:30%">Operator</th>
+        <th>Example</th>
+        <th>Same As</th>
+        </tr><tr>
+        <td>&lt;&lt;=</td>
+        <td>x &lt;&lt;= y</td>
+        <td>x = x &lt;&lt; y</td>
+        </tr>
+        <tr>
+        <td>&gt;&gt;=</td>
+        <td>x &gt;&gt;= y</td>
+        <td>x = x &gt;&gt; y</td>
+        </tr>
+        <tr>
+        <td>&gt;&gt;&gt;=</td>
+        <td>x &gt;&gt;&gt;= y</td>
+        <td>x = x &gt;&gt;&gt; y</td>
+        </tr>
+        </tbody></table>
+        <h4>Bitwise assignment operator</h4>
+        <table style="width:50%">
+            <tbody><tr>
+            <th style="width:30%">Operator</th>
+            <th>Example</th>
+            <th>Same As</th>
+            </tr><tr>
+            <td>&amp;=</td>
+            <td>x &amp;= y</td>
+            <td>x = x &amp; y</td>
+            </tr>
+            <tr>
+            <td>^=</td>
+            <td>x ^= y</td>
+            <td>x = x ^ y</td>
+            </tr>
+            <tr>
+            <td>|=</td>
+            <td>x |= y</td>
+            <td>x = x | y</td>
+            </tr>
+            </tbody></table>
+            <h4>Logical Assignment operator</h4>
+            <table style="width: 50%;">
+                <tbody><tr>
+                <th style="width:30%">Operator</th>
+                <th>Example</th>
+                <th>Same As</th>
+                </tr><tr>
+                <td>&amp;&amp;=</td>
+                <td>x &amp;&amp;= y</td>
+                <td>x = x &amp;&amp; (x = y)</td>
+                </tr>
+                <tr>
+                <td>||=</td>
+                <td>x ||= y</td>
+                <td>x = x || (x = y)</td>
+                </tr>
+                <tr>
+                <td>??=</td>
+                <td>x ??= y</td>
+                <td>x = x ?? (x = y)</td>
+                </tr>
+                </tbody></table>
+  <h3 style="text-decoration: underline;">Adding JavaScript Strings</h3>
+  <p id="demo3"></p>
+  <p id="demo4"></p>
+  <p id="demo5"></p>
+  <h4>Note:If you add a number and a string, the result will be a string!</h4>
+  <h3 style="text-decoration: underline;">JavaScript Comparison Operators</h3>
+  <table style="width: 50%;">
+    <tr>
+        <th>operator</th>
+        <th>discription</th>   
+    </tr>
+    <tr>
+        <td>==</td>
+        <td>equal to</td>
+    </tr>
+    <tr>
+        <td>===</td>
+        <td>equal value and equal type</td>
+    </tr>
+    <tr>
+        <td>!=</td>
+        <td>Not equal</td>
+    </tr>
+    <tr>
+        <td>!==</td>
+        <td>Not equal value not equal type</td>
+    </tr>
+    <tr>
+        <td>></td>
+        <td>greater then</td>
+    </tr>
+    <tr>
+        <td> < </td>
+         <td>less then</td>
+    </tr>
+    <tr>
+        <td>>=</td>
+        <td>Greater then or equal to</td>
+    </tr>
+    <tr>
+        <td><=</td>
+        <td>less then or equal to </td>
+    </tr>
+    <tr> 
+        <td>?</td>
+        <td>ternary operator</td>
+
+    </tr>
+    
+    
+  </table>
+  <h3 style="text-decoration: underline;">JavaScript Logical Operators</h3>
+  <table  style="width: 50%; ">
+    <tr>
+    <th>Operator</th>
+    <th>Discription</th>
+</tr>
+<tr> 
+    <td>&&</td>
+    <td>logical or</td>
+</tr>
+<tr> 
+    <td>||</td>
+    <td>logical or</td>
+</tr>
+<tr>
+    <td>!</td>
+    <td>logical Not</td>
+</tr>
+  </table>
+  <h3 style="text-decoration: underline;">JavaScript Type Operators</h3>
+  <table style="width: 50%;">
+    <tr>
+        <th>Operator</th>
+        <th>Discription</th>
+    </tr>
+    <tr>
+        <td>typeof</td>
+        <td>Returns the type of a variable</td>
+    </tr>
+    <tr>
+        <td>instanceof</td>
+        <td>Returns true if an object is an instance of an object type</td>
+    </tr>
+  </table>
+  <h3 style="text-decoration: underline;">JavaScript Bitwise Operators</h3>
+  <table style="width: 100%;">
+    <tr>
+        <th>operator</th>
+        <th>discription</th>
+        <th>Example</th>
+        <th>same as</th>
+        <th>result</th>
+        <th>decimal</th>
+    </tr>
+    <tr>
+        <td>&</td>
+        <td>and</td>
+        <td>5&1</td>
+        <td>0101&0001</td>
+        <td>0001</td>
+        <td>1</td>
+    </tr>
+    <tr> 
+        <td>|</td>
+        <td>or</td>
+        <td>5|1</td>
+        <td>0101&0001</td>
+        <td>0101</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>~</td>
+        <td>Not</td>
+        <td>~5</td>
+        <td>~0101</td>
+        <td>1010</td>
+        <td>10</td>
+    </tr>
+    <tr>
+        <td>^</td>
+        <td>XOR</td>
+        <td>5^1</td>
+        <td>0101^0001</td>    
+        <!-- 00,11 => 0.  01,10 => 1 -->
+        <td>0100</td>
+        <td>4</td>
+
+    </tr>
+    <tr>
+        <td><<</td>
+        <td>Left shift</td>
+        <td>5<< 1</td>
+        <td>0101 << 1</td>
+        <td>1010</td>
+        <td>10</td>
+        
+    </tr>
+    <tr>
+        <td>>></td>
+        <td>Right shift</td>
+        <td>5 >> 1</td>
+        <td>0101 >> 1</td>
+        <td>0010</td>
+        <td>2</td>
+        
+    </tr>
+    <tr>
+        <td>>>></td>
+        <td>Unsigned rightshift</td>
+        <td>5>>> 1</td>
+        <td>0101 >>> 1</td>
+        <td>0010</td>
+        <td>2</td>
+        
+    </tr>
+  </table>
+  
+<script src="program5.js"></script>
+</body>
+</html>

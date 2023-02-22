@@ -1,0 +1,17 @@
+let a = 50;
+let b = (a+30)*10;
+document.getElementById("demo").innerHTML = b;
+var x = 15;
+x += 5;
+document.getElementById("demo1").innerHTML = x;
+let text1 = "just";
+let text2 = "be happy";
+let text3 = text1 + " " + text2;
+document.getElementById('demo3').innerHTML = text3;
+let text4 = "my name";
+text4 += " "+"nice day";
+document.getElementById('demo4').innerHTML = text4;
+let value1 = "the value is";
+let value2 = 2;
+let value3 = value1 + " " + value2;
+document.getElementById('demo4').innerHTML = value3;
