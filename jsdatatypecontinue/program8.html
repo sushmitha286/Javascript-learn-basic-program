@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript datatype Continue</title>
+    <link rel="stylesheet" href="program8.css">
+</head>
+<body>
+    <h2>Javascript datatype Continue: 1.object 2.event</h2>
+    <div id="a">
+    <h4>1. Object</h4>
+    <p id="demo"></p>
+    <p style="text-decoration: underline;"><b>If you access a method without the () parentheses, it will return the function definition:</b></p>
+    <p id="demo1"></p>
+    <p style="text-decoration: underline;"><b>If you access a method with the () parentheses, it will return the function definition:</b></p>
+    <p id="demo2"></p>
+</div>
+<div id="b">
+    <h4>2. Event</h4>
+    <P><b>In the following example, an onclick attribute (with code)</b></P>
+    <button id="c" type="button" onclick="document.getElementById('demo3').innerHTML=Date();"> Click me!</button>
+    <p id="demo3"></p>
+    <p><b>In the next example, the code changes the content of its own element (using this.innerHTML):</b></p>
+    <button id="d" type="button" onclick="this.innerHTML=Date();">Tap Here!!</button>
+<p><b>JavaScript code is often several lines long. It is more common to see event attributes calling functions:</b></p>
+<button id="e" onclick="displayfun()">Tap!</button>
+<p id="demo4"></p>
+</div>
+    <script src="program8.js"></script>
+    
+</body>
+</html>
