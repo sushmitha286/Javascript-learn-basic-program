@@ -12,3 +12,5 @@ program 5: Javascript Operator
 program 6: Javascript datatype
 
 program 7: Javascript functions
+
+program 8: Javascript String and object.
