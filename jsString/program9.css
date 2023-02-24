@@ -1,0 +1,32 @@
+h2{
+    border: 1px solid black;
+    padding: 10px 1px;
+    background-color: rgb(182, 229, 128);
+    width: 30%;
+    text-align: center;
+    margin: 10px 500px;
+}
+
+th,td,table{
+    border: 1px solid black;
+    text-align: left;
+    box-sizing: border-box;
+    padding: 10px 10px;
+    border-collapse: collapse;
+    
+}
+tr:nth-child(even){
+    background-color: #dddddd;
+}
+.de{
+    border: 1px solid black;
+    padding: 20px 20px;
+    background-color:rgb(208, 172, 172);
+}
+section{
+    border: 1px solid black;
+    padding: 20px 20px;
+    margin: 30px 0px;
+    background-color: rgb(223, 238, 237);
+}
+

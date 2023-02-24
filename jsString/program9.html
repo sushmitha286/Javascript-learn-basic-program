@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript String</title>
+    <link rel="stylesheet" href="program9.css">
+</head>
+<body>
+    <div class="de">
+    <h2>String</h2>
+    <p style="text-decoration: underline;"><b>The length of the string ,by using length keywords:</b></p>
+   <p id="demo"></p>
+   <h4 style="text-decoration: underline;">Escape Character</h4>
+   <table  style="width: 70%;">
+    <tr>
+        <th>Code</th>
+        <th>Result</th>
+        <th>Discription</th>
+    </tr>
+    <tr>
+        <td>\'</td>
+        <td>'</td>
+        <td>Single quote</td>
+    </tr>
+    <tr>
+        <td>\"</td>
+        <td>"</td>
+        <td>Double quote</td>
+    </tr>
+    <tr>
+        <td>\\</td>
+        <td>\</td>
+        <td>Backslash</td>
+    </tr>
+   </table>
+
+   <p id="b"></p>
+   <p id="c"></p>
+   <p id="d"></p>
+   
+    <table style="width: 50%;  ">
+
+        <tr >
+        <th>code</th>
+        <th>Discription</th>
+    </tr>
+    <tr>
+        <td>\b</td>
+        <td>backspace</td>
+    </tr>
+    <tr>
+        <td>\f</td>
+        <td>form feed</td>
+    </tr>
+    <tr>
+        <td>\n</td>
+        <td>new line</td>
+    </tr>
+    <tr>
+        <td>\r</td>
+        <td>carriage return</td>
+    </tr>
+    <tr>
+        <td>\t</td>
+        <td>horizontal tabular</td>
+    </tr>
+    <tr>
+        <td>\v</td>
+        <td>vertical tabular</td>
+    </tr>
+
+    </table>
+
+   <h4 style="text-decoration: underline;">Breaking Long Code Lines</h4>
+   <p id="g"></p>
+   <h4 style="text-decoration: underline;">JavaScript Strings as Objects</h4>
+   <p id="h"></p>
+
+</div>
+<section>
+    <h2>Javscript String method</h2>
+    <table style="width: 80%;">
+        <tbody><tr>
+              <td>
+        String length<br>
+        String slice()<br>
+        String substring()<br>
+        String substr()<br>
+        String replace()<br>
+        String replaceAll()<br>
+        String toUpperCase()<br>
+        String toLowerCase()<br>
+        String concat()<br>
+        </td>
+        <td>
+        String trim()<br>
+        String trimStart()<br>
+        String trimEnd()<br>
+        String padStart()<br>
+        String padEnd()<br>
+        String charAt()<br>
+        String charCodeAt()<br>
+        String split()<br>
+        </td>
+        </tr>
+        </tbody>
+    </table>
+    <h4 style="text-decoration: underline;">JavaScript String Length:</h4>
+    <p id="k"></p>
+    <h4 style="text-decoration: underline;">JavaScript String slice():</h4>
+    <p id="l"></p>
+    <p id="m"></p>
+    <p id="n"></p>
+    <h4 style="text-decoration: underline;" >JavaScript String substring():</h4>
+    <h5>The difference is that start and end values less than 0 are treated as 0.</h5>
+    <p id="o"></p>
+    <p id="p"></p>
+    
+    <h4 style="text-decoration: underline;">JavaScript String substr():</h4>
+    <h5>The difference is that the second parameter specifies the length of the extracted part.</h5>
+    <p id="r"></p>
+    <p id="s"></p>
+    <h4 style="text-decoration: underline;">Replacing String Content:</h4>
+    <h5>By default, the replace() method is case sensitive. Writing MICROSOFT (with upper-case) will not work:</h5>
+    <p id="t"></p>
+    <h5>To replace case insensitive, use a regular expression with an /i flag (insensitive):</h5>
+    <H5>Regular expressions are written without quotes.</H5>
+    <p id="u"></p>
+    <h5>To replace all matches, use a regular expression with a /g flag (global match):</h5>
+    <p id="v"></p>
+    <h4 style="text-decoration: underline;">JavaScript String ReplaceAll():</h4>
+    <h5>If the parameter is a regular expression, the global flag (g) must be set set, otherwise a TypeError is thrown.</h5>
+    <p id="w"></p>
+    <h4 style="text-decoration: underline;">Converting to Upper and Lower Case:</h4>
+    <h5>A string is converted to upper case with toUpperCase():</h5>
+     <h5>A string is converted to lower case with toLowerCase():</h5>
+     <p id="x"></p>
+     <p id="y"></p>
+     <h4 style="text-decoration: underline;">JavaScript String concat():</h4>
+     <p id="z"></p>
+     <h4 style="text-decoration: underline;">JavaScript String trim():</h4>
+     <h5>The trim() method removes whitespace from both sides of a string:</h5>
+     <p id="A"></p>
+     <h4 style="text-decoration: underline;">JavaScript String trimStart():</h4>
+     <h5>The trimStart() method works like trim(), but removes whitespace only from the start of a string.</h5>
+     <p id="B"></p>
+     <h4 style="text-decoration: underline;">JavaScript String trimEnd():</h4>
+     <h5>The trimEnd() method works like trim(), but removes whitespace only from the end of a string.</h5>
+     <p id="C"></p>
+     <h4  style="text-decoration: underline;">JavaScript String Padding:</h4>
+     <h5>added two String methods: padStart() and padEnd() to support padding at the beginning and at the end of a string.     </h5>
+<h4  style="text-decoration: underline;">JavaScript String padStart():</h4>
+<p id="D"></p>
+<h4  style="text-decoration: underline;">JavaScript String padEnd():</h4>
+<p id="E"></p>
+<h4 style="text-decoration: underline;" >Extracting String Characters:</h4>
+<ul>
+    <li>charAt(position)
+    </li>
+    <li>charCodeAt(position)</li>
+    <li>Property access [ ]</li>
+</ul>
+<h4 style="text-decoration: underline;">JavaScript String charAt():</h4>
+<p id="F"></p>
+<h4 style="text-decoration: underline;">JavaScript String charCodeAt():</h4>
+<p id="G"></p>
+<h4 style="text-decoration: underline;">Property Access</h4>
+<p id="H"></p>
+<h4 style="text-decoration: underline;">JavaScript String split():</h4>
+<p id="I"></p>
+<p id="J"></p>
+<P id="K"></P>
+
+</section>
+
+   <script src="program9.js"></script>
+
+    
+</body>
+</html>
