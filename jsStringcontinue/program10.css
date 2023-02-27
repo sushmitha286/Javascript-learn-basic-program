@@ -1,0 +1,27 @@
+h1{
+    text-align: center;
+    border:  1px solid black;
+    padding:10px 10px;
+    background-color: rgb(199, 163, 168);
+    margin:20px 400px;
+    border-radius: 10px;
+    border-color: brown;
+    color: rgb(45, 55, 66);
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.dem{
+    border:  1px solid black;
+    padding:10px 10px;
+    background-color: rgba(166, 160, 171, 0.589);
+    margin-top:40px;
+    margin-right: 1250px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ border-color: rgb(74, 41, 1);
+}
+.demo{
+    border: 1px solid black;
+    padding: 20px 20px;
+    margin-top: 10px;
+    margin-right: 800px;
+    background-color: antiquewhite;
+}
