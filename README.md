@@ -16,3 +16,5 @@ program 7: Javascript functions
 program 8: Javascript Event and object.
 
 program 9 :Javascript string and string method
+
+program 10: Javscript string search and string template
