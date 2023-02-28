@@ -1,0 +1,21 @@
+h2{
+    border: 1px solid black;
+    padding: 20px 20px;
+    margin: 10px 400px;
+    color: rgb(37, 43, 29);
+    background-color: lightcoral;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-weight: bolder;
+cursor: pointer;
+
+}
+h2:active{
+    background-color: rgb(209, 102, 120);
+}
+h2:hover{
+    background-color: palevioletred;
+}
