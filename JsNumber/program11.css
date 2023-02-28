@@ -1,0 +1,25 @@
+h2{
+    border: 1px solid black;
+    border-color: black;
+    background-color: lightsalmon;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px 500px;
+    padding: 20px 20px;
+
+}
+table,th,td{
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding:10px 10px;
+   
+}
+tr:nth-child(even){
+    background-color: rgb(234, 234, 165);
+}
+h3{
+text-decoration: underline;
+
+}
