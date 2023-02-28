@@ -20,3 +20,5 @@ program 9 :Javascript string and string method
 program 10: Javascript string search and string template
 
 program 11:Javascript number methods and number properties.
+
+program 12:Javascript array: part1
