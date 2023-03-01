@@ -1,0 +1,14 @@
+h2{
+    border:1px solid black;
+    color: white;
+    padding:20px 20px;
+    background-color: #034646;
+    margin: 10px 400px;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+h3{
+    text-decoration: underline;
+}
