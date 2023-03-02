@@ -24,3 +24,5 @@ program 11:Javascript number methods and number properties.
 program 12:Javascript array: part1
 
 program 13:Javascript array method: part 2
+
+program 14:Javscript array sort: ppart 3
