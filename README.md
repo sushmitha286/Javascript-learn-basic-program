@@ -25,4 +25,6 @@ program 12:Javascript array: part1
 
 program 13:Javascript array method: part 2
 
-program 14:Javscript array sort: ppart 3
+program 14:Javscript array sort: part 3
+
+program 15:Javscript array iteration: part 4
