@@ -1,0 +1,11 @@
+.demo{
+    border: 1px solid rgb(224, 131, 131);
+    background-color: rgb(223, 147, 171);
+    text-align: center;
+ padding: 20px 20px;
+ margin: 10px 500px;
+ border-radius: 20px;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ font-size: 30px;
+ 
+}
