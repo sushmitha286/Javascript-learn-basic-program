@@ -28,3 +28,5 @@ program 13:Javascript array method: part 2
 program 14:Javscript array sort: part 3
 
 program 15:Javscript array iteration: part 4
+
+program 16: Javascript date and date format
