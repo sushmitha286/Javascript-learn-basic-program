@@ -32,3 +32,5 @@ program 15:Javscript array iteration: part 4
 program 16: Javascript date and date format
 
 program 17: Javascript date get methods
+
+program 18:Javascript date set methods
