@@ -35,6 +35,6 @@ program 17: Javascript date get methods
 
 program 18:Javascript date set methods
 
-program 19:Javscript math object
+program 19:Javascript math object
 
-progra 20:Javascript random
+program 20:Javascript random
