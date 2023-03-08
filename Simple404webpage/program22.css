@@ -1,0 +1,66 @@
+body{
+    background-image: url(https://images.pexels.com/photos/1028599/pexels-photo-1028599.jpeg);
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+}
+.error_container{
+    font-size: 230px;
+    padding: 70px 140px 0px;
+    font-family:Arial, Helvetica, sans-serif;
+    animation: colorrr 10s infinite;
+    margin-bottom: 0px;
+    display: inline-block;
+}
+#bh{
+    color: lightcoral;
+ 
+    
+}
+#ah{
+    color: lightgreen;
+   
+}
+#mh{
+   color: lightblue;
+}
+
+@keyframes colorrr {
+    0% {
+         filter: hue-rotate(0deg)
+        }
+    50% {
+         filter: hue-rotate(360deg)
+        }
+  }
+.values_not{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    font-weight: bolder ;
+    margin-top: 5px;
+    padding: 0px 300px 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.container{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 200px;
+    margin: 0px;
+}
+button{
+    border: 1px solid lightgreen ;
+    padding :10px 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    font-weight: bolder;
+    border-radius: 10px;
+    margin-left: 360px;
+    cursor: pointer;
+    
+
+}
+#mybtn:hover{
+    background-color: rgb(167, 207, 86);
+}
