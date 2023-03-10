@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 10;
+  padding: 20;
+  box-sizing: border-box;
+  font-family: arial,sans-serif;
+}
+html,body{
+  display: grid;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  animation: colorr 10s infinite;
+}
+.error_container .button{
+  display: inline-block;
+  height: 70px;
+  width: 70px; 
+  margin: 0 5px;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0px 20px 20px -10px rgba(93, 64, 64, 0.119);
+  transition: all 0.3s ease-out;
+}
+.error_container .button:hover{
+  width: 190px;
+}
+.error_container .button .icon{
+  display: inline-block;
+  height: 70px;
+  width: 70px;
+  text-align: center;
+  border-radius: 60px;
+  box-sizing: border-box;
+  line-height: 70px;
+  transition: all 0.3s ease-out;
+}
+.error_container .button:nth-child(1):hover .icon{
+  background: #ed5353;
+}
+.error_container .button:nth-child(2):hover .icon{
+  background: #9ba54a;
+}
+.error_container .button:nth-child(3):hover .icon{
+  background: #90f49c;
+}
+.error_container .button:nth-child(4):hover .icon{
+  background: #e85190;
+}
+.error_container .button:nth-child(5):hover .icon{
+  background: #7687f1;
+}
+.error_container .button:nth-child(6):hover .icon{
+    background: #100f0f;
+  }
+.error_container .button .icon i{
+  font-size: 23px;
+  line-height: 70px;
+  transition: all 0.3s ease-out;
+}
+.error_container .button:hover .icon i{
+  color: #fff;
+}
+.error_container .button span{
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 60px;
+  margin-left: 10px;
+  transition: all 0.3s ease-out;
+}
+.error_container .button:nth-child(1) span{
+  color: #0920ec;
+}
+.error_container .button:nth-child(2) span{
+  color: #0920ec;
+}
+.error_container .button:nth-child(3) span{
+  color: #0920ec;
+}
+.error_container .button:nth-child(4) span{
+  color: #0920ec;
+}
+.error_container .button:nth-child(5) span{
+  color: #0920ec;
+}
+.error_container .button:nth-child(6) span{
+    color: #0920ec;
+  }
+  @keyframes colorr {
+    from {background-color: rgb(142, 157, 165);}
+    to {background-color: lightgray;}
+  }
+  
